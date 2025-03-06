@@ -1,0 +1,75 @@
+*{
+    font-family: 'Montserrat', sans-serif; 
+}
+.h-font{
+    font-family: 'Pacifico', cursive; 
+}
+.custom-bg {
+    background-color: maroon; 
+}
+
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.1); /* Phóng to khi hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Thêm bóng đổ */
+}
+
+/* Ẩn nút tăng giảm số của Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Chỉ khi rơ chuột vào thì hai swiper mới hiện ra */
+.swiper-button-next,
+.swiper-button-prev {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.swiper-container:hover .swiper-button-next,
+.swiper-container:hover .swiper-button-prev {
+    opacity: 1;
+}
+
+.h-line {
+    width: 150px;
+    margin: 0 auto;
+    height: 5px;
+}
+
+.custom-alert {
+    position: fixed; 
+    top: 80px; 
+    right: 25px; 
+}
+
+.custom-alert {
+    position: fixed; 
+    top: 80px; 
+    right: 25px; 
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
